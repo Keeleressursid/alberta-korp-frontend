@@ -114,6 +114,10 @@ settings.modeConfig = [
     localekey: `modern_texts`,
     mode:      `default`,
   },
+    {
+	localekey : "literary_texts",
+	mode : "literary"
+    },
   {
     localekey: `parallel_texts`,
     mode:      `parallel`,
