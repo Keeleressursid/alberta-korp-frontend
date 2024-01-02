@@ -811,6 +811,7 @@ attrs.koondAttrs = {
 
 
 module.exports = {
+    sppWithin,
   spWithin,
   spContext,
   modernAttrs,
