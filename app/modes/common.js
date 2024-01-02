@@ -757,6 +757,53 @@ settings.commonStructTypes = {
   },
 };
 
+// attrs.pos_koond = {
+// 	label : "pos",
+// 	// displayType : "select",
+// 	// translationKey : "pos_",
+//     extendedTemplate: selectType.extendedTemplate,
+//     extendedController: selectType.extendedController,
+// 	dataset : {
+// 	    "_A_" : "_A_",
+// 	    "_B_" : "_B_",
+// 	    "_C_" : "_C_",
+// 	    "_D_" : "_D_",
+// 	    "_G_" : "_G_",
+// 	    "_H_" : "_H_",
+// 	    "_I_" : "_I_",
+// 	    "_J_" : "_J_",
+// 	    "_K_" : "_K_",
+// 	    "_N_" : "_N_",
+// 	    "_O_" : "_O_",
+// 	    "_P_" : "_P_",
+// 	    "_Q_" : "_Q_",
+// 	    "_S_" : "_S_",
+// 	    "_Z_" : "_Z_",
+// 	    "_U_" : "_U_",
+// 	    "_V_" : "_V_",
+// 	    "_X_" : "_X_",
+// 	    "_Y_" : "_Y_"
+// 	},
+//     opts : settings.liteOptions,
+//     // opts: lliteOptions,
+// 	// opts : setOptions
+// };
+
+attrs.koondAttrs = {
+    baseform : attrs.baseform,
+    analysis : attrs.analysis,
+    pos : attrs.pos_koond,
+    number: attrs.arv_koond, 
+    cases: attrs.cases_koond,
+    voice: attrs.voice_koond,
+    tense: attrs.tense_koond,
+    nominal: attrs.nominal_koond,
+    mood: attrs.mood_koond,
+    person: attrs.person_koond,
+    negation: attrs.negation_koond
+};
+
+
 module.exports = {
   spWithin,
   spContext,
