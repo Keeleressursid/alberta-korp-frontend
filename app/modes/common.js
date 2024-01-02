@@ -757,6 +757,12 @@ settings.commonStructTypes = {
   },
 };
 
+var sppWithin = {
+    "sentence": "sentence",
+    "paragraph": "paragraph"
+};
+
+
 // attrs.pos_koond = {
 // 	label : "pos",
 // 	// displayType : "select",
