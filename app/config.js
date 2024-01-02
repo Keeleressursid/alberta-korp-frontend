@@ -116,7 +116,7 @@ settings.modeConfig = [
   },
     {
 	localekey : "literary_texts",
-	mode : "literary"
+	mode : "literary",
     },
   {
     localekey: `parallel_texts`,
