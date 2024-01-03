@@ -46,39 +46,39 @@ var spWithin = {
 var attrs  = {}; // positional attributes
 var sattrs = {}; // structural attributes
 
-attrs.pos = {
-  label:          `pos`,
-  translationKey: `pos_`,
-  dataset:        {
-    AB:            `AB`,
-    "MID|MAD|PAD": `DL`,
-    DT:            `DT`,
-    HA:            `HA`,
-    HD:            `HD`,
-    HP:            `HP`,
-    HS:            `HS`,
-    IE:            `IE`,
-    IN:            `IN`,
-    JJ:            `JJ`,
-    KN:            `KN`,
-    NN:            `NN`,
-    PC:            `PC`,
-    PL:            `PL`,
-    PM:            `PM`,
-    PN:            `PN`,
-    PP:            `PP`,
-    PS:            `PS`,
-    RG:            `RG`,
-    RO:            `RO`,
-    SN:            `SN`,
-    UO:            `UO`,
-    VB:            `VB`,
-  },
-  opts:              liteOptions,
-  extendedComponent: `datasetSelect`,
-  escape:            false,
-  order:             0,
-};
+// attrs.pos = {
+//   label:          `pos`,
+//   translationKey: `pos_`,
+//   dataset:        {
+//     AB:            `AB`,
+//     "MID|MAD|PAD": `DL`,
+//     DT:            `DT`,
+//     HA:            `HA`,
+//     HD:            `HD`,
+//     HP:            `HP`,
+//     HS:            `HS`,
+//     IE:            `IE`,
+//     IN:            `IN`,
+//     JJ:            `JJ`,
+//     KN:            `KN`,
+//     NN:            `NN`,
+//     PC:            `PC`,
+//     PL:            `PL`,
+//     PM:            `PM`,
+//     PN:            `PN`,
+//     PP:            `PP`,
+//     PS:            `PS`,
+//     RG:            `RG`,
+//     RO:            `RO`,
+//     SN:            `SN`,
+//     UO:            `UO`,
+//     VB:            `VB`,
+//   },
+//   opts:              liteOptions,
+//   extendedComponent: `datasetSelect`,
+//   escape:            false,
+//   order:             0,
+// };
 
 attrs.msd = {
   label:            `msd`,
@@ -763,37 +763,37 @@ var sppWithin = {
 };
 
 
-// attrs.pos_koond = {
-// 	label : "pos",
-// 	// displayType : "select",
-// 	// translationKey : "pos_",
-//     extendedTemplate: selectType.extendedTemplate,
-//     extendedController: selectType.extendedController,
-// 	dataset : {
-// 	    "_A_" : "_A_",
-// 	    "_B_" : "_B_",
-// 	    "_C_" : "_C_",
-// 	    "_D_" : "_D_",
-// 	    "_G_" : "_G_",
-// 	    "_H_" : "_H_",
-// 	    "_I_" : "_I_",
-// 	    "_J_" : "_J_",
-// 	    "_K_" : "_K_",
-// 	    "_N_" : "_N_",
-// 	    "_O_" : "_O_",
-// 	    "_P_" : "_P_",
-// 	    "_Q_" : "_Q_",
-// 	    "_S_" : "_S_",
-// 	    "_Z_" : "_Z_",
-// 	    "_U_" : "_U_",
-// 	    "_V_" : "_V_",
-// 	    "_X_" : "_X_",
-// 	    "_Y_" : "_Y_"
-// 	},
-//     opts : settings.liteOptions,
-//     // opts: lliteOptions,
-// 	// opts : setOptions
-// };
+attrs.pos = {
+	label : "pos",
+	// displayType : "select",
+	// translationKey : "pos_",
+    extendedTemplate: selectType.extendedTemplate,
+    extendedController: selectType.extendedController,
+	dataset : {
+	    "_A_" : "_A_",
+	    "_B_" : "_B_",
+	    "_C_" : "_C_",
+	    "_D_" : "_D_",
+	    "_G_" : "_G_",
+	    "_H_" : "_H_",
+	    "_I_" : "_I_",
+	    "_J_" : "_J_",
+	    "_K_" : "_K_",
+	    "_N_" : "_N_",
+	    "_O_" : "_O_",
+	    "_P_" : "_P_",
+	    "_Q_" : "_Q_",
+	    "_S_" : "_S_",
+	    "_Z_" : "_Z_",
+	    "_U_" : "_U_",
+	    "_V_" : "_V_",
+	    "_X_" : "_X_",
+	    "_Y_" : "_Y_"
+	},
+    opts : settings.liteOptions,
+    // opts: lliteOptions,
+	// opts : setOptions
+};
 
 attrs.koondAttrs = {
     baseform : attrs.baseform,
