@@ -817,6 +817,7 @@ module.exports = {
   modernAttrs,
   modernAttrs2,
   defaultContext,
+  pos_attrs,
   attrs,
   sattrs,
   modernAttrsOld,
